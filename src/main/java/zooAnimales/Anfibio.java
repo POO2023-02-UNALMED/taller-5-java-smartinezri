@@ -47,8 +47,8 @@ public class Anfibio extends Animal {
 		Anfibio.listado = listado;
 	}
 	
-	public ArrayList<Anfibio> getListado(){
-		return Anfibio.listado;
+	public static ArrayList<Anfibio> getListado(){
+		return listado;
 	}
 	
 	public void setColorPiel(String colorPiel) {

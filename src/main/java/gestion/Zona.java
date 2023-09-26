@@ -21,11 +21,11 @@ public class Zona {
 	}
 
 	public int cantidadAnimales() {
-        int cantidad = 0;
+        int cantidadAnimales = 0;
         for (Animal animal : animales){
-            cantidad += 1;
+            cantidadAnimales += 1;
         }
-		return cantidad;
+		return cantidadAnimales;
 	}
 
 	public void agregarAnimales(Animal animal) {
@@ -55,4 +55,5 @@ public class Zona {
 	public void setAnimales(ArrayList<Animal> animales) {
 		this.animales = animales;
 	}
+	
 }
